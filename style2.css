@@ -5,10 +5,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-image: url(weather7.jpg);
+	background-image: url(weather_background.jpg);
 	background-size:cover, 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 	transition: transform 0.3s ease-in-out;
 	width: 450px;
-	background-image: url(weather7.jpg);
+	background-image: url((weather_background.jpg);
 	background-size:cover, 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
