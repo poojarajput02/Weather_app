@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style2.css">
+	<title>weather app</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="weather-card">
+			<h1 style="color: rgb(87, 26, 3);">
+				WEATHER
+			</h1>
+		
+			<input type="text" id="city-input" placeholder="Enter city name">
+			<button id="city-input-btn" onclick="weatherFn($('#city-input').val())">
+					Get Weather
+			</button>
+			<div id="weather-info" class="animate__animated animate__fadeIn">
+				<h3 id="city-name"></h3>
+				<p id="date"></p>
+				<img id="Icon" src="weathericon2.png" alt="Weather Icon" width="20%" height="20%">
+				<p id="temperature"></p>
+				<p id="description"></p>
+				<p id="wind-speed"></p>
+			</div>
+			
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+	</script>
+	<script src="https://momentjs.com/downloads/moment.min.js">
+	</script>
+	<script src="script2.js"></script>
+</body>
+
+</html>
